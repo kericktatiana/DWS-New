@@ -1,5 +1,6 @@
 /* <h1> padding, create some boxed, style and move text, make a gallery */
 
+
 body{
 	color: #d3d0cb;
 	font-family: "Arial Narrow", Arial, Serif; 
@@ -19,14 +20,19 @@ h1{
 h2{
 	color: #e8b965;
 	font-family: "Arial Black", Arial, Serif;
-	font-size: 35px 
+	font-size: 35px; 
+	margin: 5px;
+	padding-bottom: 5px
 	}
 
 h3{
 	color: #e8b965;
 	font-family: "Arial Black", Arial, Serif;
 	font-size: 30px;
+	margin: 0px;
 	}
+
+
 
 p{
 	text-indent: 10px;
@@ -79,7 +85,7 @@ Nav{
 	border-bottom: none;
 	}
 
-# nav a:active{
+#nav a:active{
 	color: #b2916d;
 	border-bottom: none;
 	}
@@ -100,7 +106,7 @@ li#images{
 	padding-top: 10px;
 	padding-right: 5px;
 	padding-bottom: 10px;
-	padding-left: 5p;
+	padding-left: 5px;
 	}
 
 
@@ -119,9 +125,14 @@ section{
 	width: 500px
 	}
 
-setion#2{
+setion#two{
 	float: right;
 	width: 500px;
+	margin-right: 50px
 	}
 
+div#img{
+	float: left;
+	padding: 10px;
+	}
 
