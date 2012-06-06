@@ -5,6 +5,7 @@ body{
 	}
 
 h1{
+	
 	color: #e8b965;
 	font-family: "Arial Black", Arial, Serif;
 	font-size: 50px;
@@ -18,22 +19,32 @@ h2{
 
 /* Lists */
 
-ul{
+ul#nav{
 	list-style-type: none;
+	padding-right: 32px;
+	padding-left: 32px;
+	
 	}
 
-li{
+li#nav{
+	background: #000000;
 	float: left;
+	padding-right: 10px;
+	padding-left: 10px;	
+	padding-bottom: 10px;
+	padding-top: 10px;
 	}
 
 Nav{
 	display: inline;
-	height: 80px;
-	width: 663px;
+	padding-right: 32px;
+	padding-left: 32px;
+	display: block;
+	
 	}	
 	
 a:link{
-	color: #c87419;
+	color: #693d0e;
 	text-decoration: none;
 	border-bottom: 1px solid;
 	
