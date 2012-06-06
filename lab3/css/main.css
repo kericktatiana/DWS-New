@@ -43,7 +43,7 @@ p{
 
 						/* Navigation UL */
 
-ul#nav{
+ul#navi{
 	font-family: "Arial Black", Arial, Serif;
 	font-size: 17px;
 	font-weight: bold;
@@ -52,7 +52,7 @@ ul#nav{
 	
 	}
 
-li#nav{
+li#navi{
 	float: left;
 	padding-right: 10px;
 	padding-left: 10px;	
@@ -118,7 +118,7 @@ Nav{
 	
 section{
 	float: left;
-	background: #000000;
+	background: rgba(0, 0, 0, .50);
 	padding-left: 10px;
 	padding-right: 10px;
 	margin-left: 50px;
@@ -127,6 +127,7 @@ section{
 
 setion#two{
 	float: right;
+	background: rgba(0, 0, 0, .50);
 	width: 500px;
 	margin-right: 50px
 	}
