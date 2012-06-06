@@ -1,3 +1,61 @@
 body{
-	background:#301e0c url(../img/Header.png) repeat-x;
+	color: #d3d0cb;
+	font-family: "Arial Narrow", Arial, Serif; 
+	background: #301e0c url(../img/Header.png) repeat-x;
 	}
+
+h1{
+	color: #e8b965;
+	font-family: "Arial Black", Arial, Serif;
+	font-size: 50px;
+	}
+	
+h2{
+	color: #e8b965;
+	font-family: "Arial Black", Arial, Serif;
+	font-size: 35px 
+	}
+
+/* Lists */
+
+ul{
+	list-style-type: none;
+	}
+
+li{
+	float: left;
+	}
+
+Nav{
+	display: inline;
+	height: 80px;
+	width: 663px;
+	}	
+	
+a:link{
+	color: #c87419;
+	text-decoration: none;
+	border-bottom: 1px solid;
+	
+	}
+
+a:visited{
+	color: #ae6517;
+	
+	}
+	
+a:hover{
+	color: #b2916d;
+	border-bottom: none;
+	}
+
+a:active{
+	color: #b2916d;
+	border-bottom: none;
+	}
+
+/* Floating */
+
+Nav{
+	float: right;
+}
