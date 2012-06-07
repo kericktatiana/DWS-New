@@ -1,8 +1,77 @@
-h1, h2, h3, ul, li, {
+h1, h2, h3, ul, li, a{
 	padding: 0;
 	margin: 0;
+	text-decoration: none;
 }
 
 body{
-	color:;
+	color:#ffffff;
+	background:#000000 url(../images/blue-gra.png) repeat-x;
 }
+
+h1{
+	padding: 0px;
+}
+
+h1{
+	float: left;
+}
+			/*navigation*/
+ul{
+	list-style-type: none;
+}
+
+nav{
+	float: right;
+}
+
+nav li{
+	float: left;
+	padding-left: 10px;
+}
+
+nav li a{
+	display: block;
+	height: 66px;
+	width: 200px;
+	background: url(../images/nav_whole.png) no-repeat;
+}
+
+		/*products*/
+
+#products a:hover{
+	background-position: 0px -66px;
+}
+
+#products a:active{
+	background-position: 0px -132px;
+}
+
+		/*shop*/
+
+#shop a{
+	background-position: -200px 0;
+}
+
+#shop a:hover{
+	background-position: -200px -66px;
+}
+
+#shop a:active{
+	background-position: -200px -132px;
+}
+
+		/*support*/
+
+#support a{
+	background-position: -400px 0;
+}
+
+#support a:hover{
+	background-position: -400px -66px;
+}
+
+#support a:active{
+	background-position: -400px -132px;
+}
+
