@@ -4,23 +4,218 @@ h1, h2, h3, ul, li, a{
 	text-decoration: none;
 }
 
+		/*		regular		*/
+
 body{
-	color:#ffffff;
-	background:#000000 url(../images/blue-gra.png) repeat-x;
+	background-image: linear-gradient(bottom, rgb(0,0,0) 88%, rgb(11,37,48) 96%), url(../images/texture.jpg);
+	background-image: -o-linear-gradient(bottom, rgb(0,0,0) 88%, rgb(11,37,48) 96%);
+	background-image: -moz-linear-gradient(bottom, rgb(0,0,0) 88%, rgb(11,37,48) 96%);
+	background-image: -webkit-linear-gradient(bottom, rgb(0,0,0) 88%, rgb(11,37,48) 96%);
+	background-image: -ms-linear-gradient(bottom, rgb(0,0,0) 88%, rgb(11,37,48) 96%);
+
 }
 
-h1#topic{
-	float: left;
-	padding: 0px;
+
+		/*		headings		*/
+
+
+h1{
+	color: #051218;
+	font-family: 'Questrial', sans-serif;
+	font-size: 30px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-shadow: 2px 1px 8px #35f0ff;
 }
+
+h2{
+	color: #051218;
+	font-family: 'Questrial', sans-serif;
+	font-size: 25px;
+	padding-top: 10px;
+	text-shadow: 2px 1px 8px #35f0ff;
+}
+
+
+p, ul, li, dd, dl, a{
+	color: #ffffff;
+	font-family: 'Cagliostro', sans-serif;
+}
+			/*			divs		*/
+
+
+div#key{
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+div#title{
+	float: left;
+	padding-left: 125px;
+}
+
+div#whole{
+	background: rgba(6, 23, 30, .8);
+	width: 990px;
+	height: 1300px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-left: 110px;
+	margin-right: 110px;
+	margin-top: 200px;
+	border-radius: 40px 0px 40px 0px;
+	border: 1px solid #35f0ff;
+}
+
+
+		/*		sections		*/
+
+div#gallery{
+	padding: 5px;
+	padding-bottom: 15px;
+	margin-left: 90px;
+	margin-right: 75px;
+	text-indent: -99999px;
+}
+
+div#gallery a{
+	border: 1px solid #35f0ff;
+}
+
+
+	
 
 section#cta{
+	width: 490px;
+	float: left;
+	padding: 5px;
+}
+
+
+		/*		links*/
+a:link{
+	color: #35f0ff;
+}
+
+a:visited{
+	color: #000000;
+}
+
+		/*  	button		*/
+
+div#button{
+	float: right;
+    color: #000000;
+    text-shadow: 0 1px 0 #444444;
+    border: 1px solid #35f0ff;
+    width: 100px;
+    height: 25px;
+    text-decoration: none;
+    position: relative;
+    font-size: 20px;
+    font-weight: normal;
+    text-align: center;
+    padding: 5px;
+    background: #0d2f3f;
+    background: -webkit-linear-gradient(top, #09202a 0%, #0d2f3f 50%);
+    background: -moz-linear-gradient(top, #09202a 0%, #0d2f3f 50%);
+    background: -o-linear-gradient(top, #09202a 0%, #0d2f3f 50%);
+    background: -ms-linear-gradient(top, #09202a 0%, #0d2f3f 50%);
+    background: linear-gradient(top, #09202a 0%, #0d2f3f 50%);
+    -webkit-border-radius: 30px 30px 30px 30px;
+    -moz-border-radius: 30px 30px 30px 30px;
+    border-radius: 30px 30px 30px 30px;
+    -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.6);
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.6);
+    margin-bottom: 10px;
+}
+
+div#button a:hover{
+	color: #000000;
+    text-shadow: 0 1px 0 #444444;
+    border: 1px solid #000000;
+    width: 200px;
+    height: 25px;
+    text-decoration: none;
+    position: relative;
+    font-size: 20px;
+    font-weight: normal;
+    text-align: center;
+    padding: 5px;
+    background: #35f0ff;
+    background: -webkit-linear-gradient(top, #165f65 0%, #35f0ff 50%);
+    background: -moz-linear-gradient(top, #165f65 0%, #35f0ff 50%);
+    background: -o-linear-gradient(top, #165f65 0%, #35f0ff 50%);
+    background: -ms-linear-gradient(top, #165f65 0%, #35f0ff 50%);
+    background: linear-gradient(top, #165f65 0%, #35f0ff 50%);
+    -webkit-border-radius: 30px 30px 30px 30px;
+    -moz-border-radius: 30px 30px 30px 30px;
+    border-radius: 30px 30px 30px 30px;
+    -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.6);
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.6);
+
+}
+
+div#button a:active{
+	color: #000000;
+    text-shadow: 0 1px 0 #444444;
+    border: 1px solid #000000;
+    width: 200px;
+    height: 25px;
+    text-decoration: none;
+    position: relative;
+    font-size: 20px;
+    font-weight: normal;
+    text-align: center;
+    padding: 5px;
+    background: #ffffff;
+    background: -webkit-linear-gradient(top, #165f65 0%, #ffffff 50%);
+    background: -moz-linear-gradient(top, #165f65 0%, #ffffff 50%);
+    background: -o-linear-gradient(top, #165f65 0%, #ffffff 50%);
+    background: -ms-linear-gradient(top, #165f65 0%, #ffffff 50%);
+    background: linear-gradient(top, #165f65 0%, #ffffff 50%);
+    -webkit-border-radius: 30px 30px 30px 30px;
+    -moz-border-radius: 30px 30px 30px 30px;
+    border-radius: 30px 30px 30px 30px;
+    -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.6);
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.6);
+}
+
+		/* 		aside		*/
+
+aside{
+	width: 420px;
+	float: right;
+	margin-top: 5px;
+	padding-right: 5px;
+	padding-left: 15px;
+	padding-bottom: 350px;
+	border-left: 1px solid #35f0ff;
+
+}
+
+		/*		UL in aside		*/
+ul#specs{
+	list-style-type: hiragana;
+	padding-top: 10px;
+	padding-left: 30px;
+}
+
+footer{
 	float: none;
 }
 
-			/*navigation*/
-ul{
+
+
+		/*		navigation		*/
+nav ul{
 	list-style-type: none;
+	padding-right: 125px;
+	padding-top: 15px;
+	padding-left: 300px;
 }
 
 nav{
@@ -29,51 +224,52 @@ nav{
 }
 
 nav li{
-	float: left;
+	text-indent: -99999px;
 }
 
 nav li a{
 	display: block;
-	height: 66px;
-	width: 200px;
-	background: url(../images/nav_whole.png) no-repeat;
+	height: 44px;
+	width: 230px;
+	background: url(../images/nav-vertical.png) no-repeat;
 }
 
-		/*products*/
+
+		/*		products		*/
 
 #products a:hover{
-	background-position: 0px -66px;
+	background-position: -230px 0px;
 }
 
 #products a:active{
-	background-position: 0px -132px;
+	background-position: -460px 0px;
 }
 
-		/*shop*/
+		/*		shop		*/
 
 #shop a{
-	background-position: -200px 0;
+	background-position: 0px -44px;
 }
 
 #shop a:hover{
-	background-position: -200px -66px;
+	background-position: -230px -44px;
 }
 
 #shop a:active{
-	background-position: -200px -132px;
+	background-position: -460px -44px;
 }
 
-		/*support*/
+		/*		support		*/
 
 #support a{
-	background-position: -400px 0;
+	background-position: 0px -88px;
 }
 
 #support a:hover{
-	background-position: -400px -66px;
+	background-position: -230px -88px;
 }
 
 #support a:active{
-	background-position: -400px -132px;
+	background-position: -460px -132px;
 }
 
