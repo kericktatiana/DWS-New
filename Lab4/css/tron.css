@@ -7,6 +7,7 @@ h1, h2, h3, ul, li, a{
 		/*		regular		*/
 
 body{
+<<<<<<< HEAD
 	background-image: linear-gradient(bottom, rgb(0,0,0) 88%, rgb(11,37,48) 96%), url(../images/texture.jpg);
 	background-image: -o-linear-gradient(bottom, rgb(0,0,0) 88%, rgb(11,37,48) 96%);
 	background-image: -moz-linear-gradient(bottom, rgb(0,0,0) 88%, rgb(11,37,48) 96%);
@@ -216,19 +217,44 @@ nav ul{
 	padding-right: 125px;
 	padding-top: 15px;
 	padding-left: 300px;
+=======
+	color:#ffffff;
+	background:#000000 url(../images/blue-gra.png) repeat-x;
+}
+
+h1{
+	padding: 0px;
+}
+
+h1{
+	float: left;
+}
+			/*navigation*/
+ul{
+	list-style-type: none;
+>>>>>>> nav done
 }
 
 nav{
 	float: right;
+<<<<<<< HEAD
 	
 }
 
 nav li{
 	text-indent: -99999px;
+=======
+}
+
+nav li{
+	float: left;
+	padding-left: 10px;
+>>>>>>> nav done
 }
 
 nav li a{
 	display: block;
+<<<<<<< HEAD
 	height: 44px;
 	width: 230px;
 	background: url(../images/nav-vertical.png) no-repeat;
@@ -271,5 +297,48 @@ nav li a{
 
 #support a:active{
 	background-position: -460px -132px;
+=======
+	height: 66px;
+	width: 200px;
+	background: url(../images/nav_whole.png) no-repeat;
+}
+
+		/*products*/
+
+#products a:hover{
+	background-position: 0px -66px;
+}
+
+#products a:active{
+	background-position: 0px -132px;
+}
+
+		/*shop*/
+
+#shop a{
+	background-position: -200px 0;
+}
+
+#shop a:hover{
+	background-position: -200px -66px;
+}
+
+#shop a:active{
+	background-position: -200px -132px;
+}
+
+		/*support*/
+
+#support a{
+	background-position: -400px 0;
+}
+
+#support a:hover{
+	background-position: -400px -66px;
+}
+
+#support a:active{
+	background-position: -400px -132px;
+>>>>>>> nav done
 }
 
