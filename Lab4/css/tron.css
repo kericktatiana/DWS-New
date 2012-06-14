@@ -8,6 +8,7 @@ h1, h2, h3, ul, li, a{
 
 body{
 <<<<<<< HEAD
+<<<<<<< HEAD
 	background-image: linear-gradient(bottom, rgb(0,0,0) 88%, rgb(11,37,48) 96%), url(../images/texture.jpg);
 	background-image: -o-linear-gradient(bottom, rgb(0,0,0) 88%, rgb(11,37,48) 96%);
 	background-image: -moz-linear-gradient(bottom, rgb(0,0,0) 88%, rgb(11,37,48) 96%);
@@ -218,6 +219,8 @@ nav ul{
 	padding-top: 15px;
 	padding-left: 300px;
 =======
+=======
+>>>>>>> nav done
 	color:#ffffff;
 	background:#000000 url(../images/blue-gra.png) repeat-x;
 }
@@ -232,11 +235,15 @@ h1{
 			/*navigation*/
 ul{
 	list-style-type: none;
+<<<<<<< HEAD
+>>>>>>> nav done
+=======
 >>>>>>> nav done
 }
 
 nav{
 	float: right;
+<<<<<<< HEAD
 <<<<<<< HEAD
 	
 }
@@ -244,16 +251,22 @@ nav{
 nav li{
 	text-indent: -99999px;
 =======
+=======
+>>>>>>> nav done
 }
 
 nav li{
 	float: left;
 	padding-left: 10px;
+<<<<<<< HEAD
+>>>>>>> nav done
+=======
 >>>>>>> nav done
 }
 
 nav li a{
 	display: block;
+<<<<<<< HEAD
 <<<<<<< HEAD
 	height: 44px;
 	width: 230px;
@@ -298,6 +311,8 @@ nav li a{
 #support a:active{
 	background-position: -460px -132px;
 =======
+=======
+>>>>>>> nav done
 	height: 66px;
 	width: 200px;
 	background: url(../images/nav_whole.png) no-repeat;
@@ -339,6 +354,9 @@ nav li a{
 
 #support a:active{
 	background-position: -400px -132px;
+<<<<<<< HEAD
+>>>>>>> nav done
+=======
 >>>>>>> nav done
 }
 
